@@ -7,15 +7,6 @@
 
 VibeList is a music recommendation web app. Sign in, tell it the vibe you're after, and it builds you a playlist. Like or dislike tracks as you listen and the recommender learns from your feedback to keep getting better.
 
-## Just Want to Try It?
-
-If you only want to **use** the app, you don't need to install anything. Open the live deployment in your browser, create an account, and start building playlists:
-
-**<http://147.182.222.130:5050/>**
-
-This instance runs the latest `main` on a Digital Ocean droplet and is redeployed automatically by CI/CD on every push.
-
-The rest of this README is for **developers** who want to run, modify, or contribute to the project locally.
 
 The system is split into three cooperating subsystems:
 
